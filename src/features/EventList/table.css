@@ -1,0 +1,64 @@
+.container {
+  padding: 16px;
+}
+
+.toolbar {
+  background-color: #ffffff;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.toolbarTitle {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #6b7280;
+
+  flex: 1;
+}
+
+.addButton {
+  background-color: #1d4ed8;
+
+  border-radius: 32px;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.addButton:hover {
+  opacity: 0.75;
+}
+
+.tableHead {
+  background-color: #50a7da !important;
+
+  height: 80px;
+}
+
+.tableHeadCell {
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  color: #f1eded !important;
+}
+
+.evenRow {
+  background-color: #eef6fb !important;
+}
+
+.tableCell {
+  font-size: 0.9rem !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.loadingIndicator {
+  width: 24px;
+  height: 24px;
+}
